@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:text="@string/field_details"
+            android:textStyle="bold|italic"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"/>
+
+        <EditText
+            android:id="@+id/update_field_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="center|top"
+            android:hint="@string/field_name"
+            android:layout_margin="15dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_update_crop"
+            android:layout_gravity="center|top"
+            style="@style/spinner_style"
+            android:spinnerMode="dialog"
+            android:layout_margin="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/area"
+                    android:textStyle="bold|italic"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/field_id"
+                    android:textStyle="bold|italic"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/field_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/green"/>
+
+                <TextView
+                    android:id="@+id/field_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/green"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cancel"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/custom_button2"
+                android:textColor="@color/white"
+                android:layout_margin="15dp"/>
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/custom_button1"
+                android:textColor="@color/white"
+                android:layout_margin="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

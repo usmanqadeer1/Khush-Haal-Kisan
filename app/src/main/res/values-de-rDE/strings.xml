@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Talking Fields</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="Agro_API_Key">81c800ebb073b4f27808689c60ec87aa</string>
+    <string name="login_status">Login Status</string>
+
+    <!--list-->
+    <string name="acre">acre</string>
+    <string name="field">Feld</string>
+    <string name="area">Bereich: </string>
+    <string name="crop">Ernte</string>
+
+    <!--bar-->
+    <string name="health">Gesundheit</string>
+    <string name="weak">Schwache Ernte</string>
+    <string name="no_crop">keine Ernte</string>
+    <string name="good">gesunde ernte</string>
+
+    <!--login-->
+    <string name="username">Name</string>
+    <string name="get_code">Code senden</string>
+    <string name="resend_code">Code erneut senden</string>
+    <string name="login">Anmeldung</string>
+    <string name="digit_code">6-stelliger Code</string>
+
+    <!--activity_map layout-->
+    <string name="save">Speichern</string>
+    <string name="clear">Auswahl entfernen</string>
+    <!--activity_map_view layout-->
+    <string name="ndvi_image">Gesundheitsbild</string>
+    <string name="true_color_image">Satellitenbild</string>
+    <!--settings_activity-->
+    <string name="field_name">Feldname</string>
+
+    <!--MapsActivity-->
+    <string name="make_closed_figure">Wählen Sie mindestens drei Koordinaten aus, um eine geschlossene Figur zu erstellen</string>
+    <string name="small_field">Das Feld ist kleiner als 1 acre</string>
+    <string name="large_field">Das Feld ist größer als 100 acre</string>
+    <string name="crop_not_selected">Wählen Sie eine Ernte aus</string>
+    <string name="published_to_agro">Halten Sie die Kultivierung auf ein Minimum\n</string>
+    <string name="could_not_publish_coordinates">Versuchen Sie es erneut oder wenden Sie sich an uns, um Hilfe zu erhalten</string>
+    <!--MapViewActivity-->
+    <string name="deleted_from_agro">Erfolgreich gelöscht</string>
+    <string name="api_not_responding">Versuchen Sie es erneut oder wenden Sie sich an uns, um Hilfe zu erhalten</string>
+    <string name="got_json_response">Felddaten sind jetzt verfügbar</string>
+
+    <!--name of crops-->
+    <string name="select_crop">Ernte auswählen</string>
+    <string name="corn">Mais</string>
+    <string name="wheat">Weizen</string>
+    <string name="rice">Reis</string>
+    <string name="cotton">Baumwolle</string>
+    <string name="sugarcane">Zuckerrohr</string>
+    <string name="potato">Gülle ausbringen\n</string>
+    <string name="other_crop">Andere Ernte</string>
+
+    <!--navigation bar/menu-->
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="logout">Ausloggen</string>
+    <string name="language">Sprache</string>
+    <string name="change_language">Sprache wählen</string>
+    <string name="home">Zuhause</string>
+    <string name="help">Hilfe</string>
+    <string name="add_field">neues Feld hinzufügen</string>
+    <string name="contact">Kontaktiere uns</string>
+    <string name="refresh">"Organische Substanz konzentrieren\n"</string>
+
+
+    <!--MainActivity-->
+    <string name = "my_fields">My Fields</string>
+    <string name="improve_crop">Techniken zur Verbesserung des Ernteertrags</string>
+
+    <!--weather activity-->
+    <string name="temperature">Temperatur:</string>
+    <string name="humidity">Luftfeuchtigkeit:</string>
+
+
+    <!--edit_form-->
+    <string name="field_details">Field Einzelheiten</string>
+    <string name="field_id">Feld-ID</string>
+
+    <!--help-->
+    <string name = "how_to_login"> Wie melde ich mich an?</string>
+    <string name = "how_to_make_field">Wie füge ich dein Feld hinzu?</string>
+    <string name = "how_to_view_map">Wie kann ich mein Feld anzeigen?</string>
+    <string name = "how_to_edit_map">Wie kann ich ein Feld bearbeiten oder löschen?</string>
+    <string name = "how_to_contact_us">Wie können Sie sich an uns wenden, um Unterstützung zu erhalten?</string>
+
+    <!--delete dialog-->
+    <string name = "ask_to_delete">Möchten Sie Ihr Feld löschen?</string>
+    <string name="yes">Ja</string>
+    <string name="cancel">Stornieren</string>
+
+    <!--wait pop up-->
+    <string name="wait_dialog">Bitte warten Sie auf den download und schließen Sie die App nicht</string>
+    <string name="field_progress">"Feld Fortschritt "</string>
+    <string name="network_not_available">" Internetverbindung ist nicht verfügbar"</string>
+    <string name="current_weather">Heute</string>
+    <string name="forecast">"Wettervorhersage "</string>
+    <string name="login_wait">Sie erhalten Code in 60 Sekunden</string>
+    <string name="valid_name">Bitte geben Sie Ihren Namen an</string>
+    <string name="valid_phone">Bitte geben Sie die gültige Telefonnummer  ein</string>
+
+    <!--pqnk-->
+    <string name="mulching">"Mulchen "</string>
+    <string name="hardpan">"Break Hardpan "</string>
+    <string name="ph_reduction">Bodenwäsche</string>
+    <string name="increase_organic_matter">Erhöhen Sie organische Substanz des Bodens</string>
+
+    <!--mulching-->
+    <string name="mulching1">Was ist Mulchen?</string>
+    <string name="mulching2">Ein Mulch ist eine natürliche oder künstlich ausgebreitete Schicht von Pflanzenresten oder anderen Materialien auf der Oberfläche des Bodens. Das Wort \"Mulch\" leitet sich vom germanischen Begriff \"Mulch\" ab und bedeutet \"weich bis faul\". Dies bezieht sich anscheinend auf die Verwendung von organischem Material und landwirtschaftlichen Abfällen wie Stroh, Grasabfällen, Kompost und Blättern, die als Mulch über den Boden verteilt sind .</string>
+    <string name="mulching3">Warum Mulchen?</string>
+    <string name="mulching4">Die wichtigen ziele in der landwirtschaft mulchen sind: \n1. Feuchtigkeitserhaltung\n2. Soil temperatursteuerung\n3. Unkrautbekämpfung\n4. Verhinderung vonoberflächenverdichtung\n5. Reduktion des abflusses und erosion\n6. Verbesserung der bodenstruktur und weizen steuer\n</string>
+    <string name="mulching5">Wie Mulchen?</string>
+    <string name="mulching6">Nach der Herstellung der permanenten Hochbeete mit einer solchen Konstruktion, die überschüssige Niederschläge den Mulch abzulaufen ermöglichen. Der Mulch unserer Wahl ist auf den vorgesehenen Bett bedeckt oder verlegt. In der Regel 2 bis 4 Zoll Schicht aus organischem Mulch verwendet, um die Betten zu decken. Verbreiten Mulch gleichermaßen auf dem Bett.</string>
+    <string name="mulch4">Vor dem Mulchen</string>
+    <string name="mulch5">Nach dem Mulchen</string>
+    <string name="mulch1">Sägemehlmulch</string>
+    <string name="mulch2">Laubmulch</string>
+    <string name="mulch3">Strohmulch</string>
+
+    <!--hardpan-->
+    <string name="hardpan1">Was ist Hardpan?</string>
+    <string name="hardpan2">Hardpan oder Ouklip ist eine dichte Bodenschicht, die sich normalerweise unter der obersten Oberbodenschicht befindet. Es gibt verschiedene Arten von Hartschalen, die alle die allgemeine Eigenschaft haben, eine unterschiedliche Bodenschicht zu sein, die weitgehend wasserundurchlässig ist.</string>
+    <string name="hardpan3">Ursachen Von Hardpan</string>
+    <string name="hardpan4">1. Ablagerungen von Natrium, gelöstem Siliciumdioxid oder Rost / Kalkstein-Kombinationen\n2. Schwermaschinen- oder Viehverkehr\n3. Wiederholtes Pflügen, insbesondere jedes Jahr in der gleichen Tiefe\n</string>
+    <string name="hardpan5">Wirkungen Von Hardpan</string>
+    <string name="hardpan6">1. Sobald sich eine Hartschalenschicht bildet, kann kein Wasser mehr in den Boden eindringen. Jegliche Feuchtigkeit, die die Hartschalenschicht erreicht, läuft einfach ab.\n2. Auch Wurzeln können nicht auf die Festplatte gelangen. Sobald eine probierende Wurzelspitze die Hartschale spürt, dreht sie sich zur Seite und richtet das Wurzelwachstum horizontal aus. Oder, noch schlimmer, die Pflanze gibt das Wurzelwachstum ganz auf.\n</string>
+    <string name="hardpan7">Methoden Um Hardpan Brechen</string>
+    <string name="hardpan8">1. Im kleinen Maßstab wird dies normalerweise mit einer Breitgabel durchgeführt.\n2.In größerem Maßstab sind verschiedene tier- oder traktorbetriebene Werkzeuge erhältlich, z. B. der 18-20 Zoll tiefe Starrzinken-Meißelpflug.</string>
+
+    <!--organic-->
+    <string name="organic1">Was ist organische Materie?</string>
+    <string name="organic2">Organische Materie   (oder   organisch   Material) ist   Angelegenheit   das ist von einem kürzlich lebenden Organismus gekommen. Materialien, die den Zersetzungsprozess durchlaufen, um organische Bodensubstanz zu bilden, umfassen: Pflanzen- und Pflanzenreste, Baumabfälle, tierische Abfälle, Tiere und verschiedene Arten von Bodenorganismen, deren Nebenprodukte und in geringerem Maße menschliche Abfälle.</string>
+    <string name="organic3">Vorteile der organischen Bodensubstanz</string>
+    <string name="organic4">1.Bodenstruktur verbessern\n2.Verbessert die Entwässerung\n3.Hält Feuchtigkeit\n4.Bietet Nährstoffe\n5.Verbessert die Kationenaustauschkapazität\n</string>
+    <string name="organic5">Wie vermehrt man organische Bodensubstanz?</string>
+    <string name="organic6">1.Wachsen mehrjährige Weide\n2.Getreide anbauen\n3.Bauen Sie Gründünger an\n4.Gülle ausbringen\n5.Verwenden Sie organische Dünger\n6.Halten Sie die Kultivierung auf ein Minimum\n7.Organische Substanz konzentrieren\n</string>
+    <string name="organic_s1">Düngen</string>
+    <string name="organic_s2">Kompost</string>
+    <string name="organic_s3">Torfmoos</string>
+    
+    <!--soil wash-->
+    <string name="soilwash1">Bei der Bodenreinigung handelt es sich um eine Sanierungsmethode, mit der gefährliche Verunreinigungen aus dem Boden entfernt werden, indem der Boden mit einer Flüssigkeit (häufig mit einem chemischen Zusatz) gewaschen wird. Anschließend werden die sauberen Böden von kontaminiertem Boden getrennt und mit Wasser gewaschen.</string>
+    <string name="soilwash2">Für die Bodenwäsche folgen Sie diesen Schritten:\n\n1. Führen Sie den Pflug mit dem Meißelpflug aus\n\n2. Verteilen Sie Schwefelsäure oder Schwefel gleichmäßig auf dem Boden <b>(ca. 8 - 10 kg pro Morgen)</b>\n\n3. Bewässern Sie das Land ordnungsgemäß.\\n</string>
+    <string name="improve_crop1">Techniken</string>
+    <string name="search_location">Suche den Ort</string>
+    <string name="tutorial">Tutorial-Folien</string>
+    <string name="get_started">Loslegen</string>
+    <string name="pick_date">Datum der Aussaat</string>
+    <string name="maps_t1_text">Klicken Sie hier auf ein schwarzes Schild, um zu Ihrem aktuellen Standort zu gelangen.</string>
+    <string name="maps_t1_title">" Aktueller Standort"</string>
+    <string name="maps_t2_text">" Klicken Sie hier, um verschiedene Kulturen anzuzeigen und wählen Sie die in Ihrem Feld aus"</string>
+    <string name="maps_t2_title">Ernte auswählen</string>
+    <string name="maps_t3_text">Wählen Sie das Datum aus, indem Sie auf das Kalenderzeichen klicken, wenn Sie die Samen gesät haben</string>
+    <string name="maps_t3_title">Datum auswählen</string>
+    <string name="maps_t4_text">Klicken Sie, um die Karte zu löschen und das Polygon erneut zu zeichnen</string>
+    <string name="maps_t4_title">klar</string>
+    <string name="maps_t5_text">Zeichnen Sie das Polygon auf der Karte, auf der sich Ihr Feld befindet</string>
+    <string name="maps_t5_title">Wie zeichnet man ein Polygon?</string>
+    <string name="field_t1_text">Klicken Sie auf diese Schaltfläche, um Ihr Feld hinzuzufügen</string>
+    <string name="field_t1_title">Fügen Sie Ihr Feld hinzu</string>
+    <string name="field_t2_text">Klicken Sie auf ein Feld in der Liste, um Ihre Felddetails anzuzeigen</string>
+    <string name="field_t2_title">Zeigen Sie Ihr Feld an</string>
+    <string name="maps_t6_text">Sie können Ihren Feldstandort durchsuchen, indem Sie den Namen des Ortes hier eingeben</string>
+    <string name="maps_t6_title">Suche den Ort</string>
+    <string name="maps_t7_text">Klicken Sie hier, um Ihr Feld abzuschließen</string>
+    <string name="maps_t7_title">Speichern Sie Ihr Feld</string>
+    <string name="dashboard">Instrumententafel</string>
+</resources>

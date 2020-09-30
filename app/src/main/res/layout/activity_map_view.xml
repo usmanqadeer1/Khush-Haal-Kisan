@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/map_view_frame"
+    tools:context=".MapViewActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|right"
+        android:background="@drawable/ic_gps_fixed_black_24dp"
+        android:id="@+id/current_location"/>
+
+    <fragment
+        android:id="@+id/map_view"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.lums.narl.mapexample1.MapViewActivity" />
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="top|left"
+        android:orientation="vertical">
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segmented2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="10dp">
+
+            <RadioButton
+                android:id="@+id/ndvi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ndvi_image"
+                android:textSize="15sp"
+                android:padding = "10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/satellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/true_color_image"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding = "10dp"
+                android:textColor="@color/white"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/previous"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toLeftOf="@id/spinner_dates"
+                android:layout_centerVertical="true"
+                android:src="@drawable/left_white_24dp"/>
+            <Spinner
+                android:id="@+id/spinner_dates"
+                style="@style/spinner_style"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:spinnerMode="dropdown" />
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@id/spinner_dates"
+                android:layout_centerVertical="true"
+                android:src="@drawable/right_white_24dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/ndvi_image_clip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/image"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/graph"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/graph"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="15sp"
+                android:text="@string/no_crop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weak"
+                android:textSize="15sp"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/good"
+                android:textSize="15sp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/gradient_ndvi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="@string/health"/>
+    </LinearLayout>
+
+
+</FrameLayout>

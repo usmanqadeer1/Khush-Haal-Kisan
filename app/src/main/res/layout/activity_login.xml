@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_icon"
+        android:paddingBottom="20dp"
+        android:gravity="bottom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/login"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize = "20sp"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:hint="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:inputType="text"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="+921234567890"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/digit_code"
+        android:visibility="gone"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/send_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_code"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"/>
+
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="@string/login"
+        android:layout_margin="15dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/narlums"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="bottom"/>
+
+</LinearLayout>

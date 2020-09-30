@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green"
+        tools:context=".graphActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graph_frame"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/field_name_spinner"
+            android:layout_width ="match_parent"
+
+            style="@style/graph_spinner_style"
+            android:layout_gravity="center"
+            android:layout_margin ="20dp"
+            android:layout_height="wrap_content" />
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/period_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="10dp">
+
+            <RadioButton
+                android:id="@+id/last_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Month"
+                android:textSize="15sp"
+                android:padding = "10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:checked="true"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/last_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Year"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding = "10dp"
+                android:textColor="@color/white"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/stat_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="10dp">
+
+            <RadioButton
+                android:id="@+id/mean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NDVI"
+                android:textSize="15sp"
+                android:padding = "10dp"
+                android:textStyle="bold"
+                android:checked="true"
+                android:textColor="@color/white"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/std"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uncertainty"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:padding = "10dp"
+                android:textColor="@color/white"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:seriesType="line"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/graph" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/test"/>
+    </LinearLayout>
+</ScrollView>

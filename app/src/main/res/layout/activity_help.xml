@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button1"
+        android:text="@string/tutorial"
+        android:layout_margin="30dp"
+        android:textColor="@color/white"/>
+
+    <ListView
+        android:id="@+id/help_link_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dip"
+        android:layout_margin="5dp"></ListView>
+
+</LinearLayout>

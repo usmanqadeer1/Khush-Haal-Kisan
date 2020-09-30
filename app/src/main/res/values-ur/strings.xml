@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">خوشحال کسان</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="Agro_API_Key">81c800ebb073b4f27808689c60ec87aa</string>
+    <string name="login_status">Login Status</string>
+
+
+    <!--list-->
+    <string name="acre">ایکڑ</string>
+    <string name="field">کھیت </string>
+    <string name="area">رقبہ: </string>
+    <string name ="crop">فصل</string>
+
+    <!--bar-->
+    <string name="health">صحت</string>
+    <string name="weak">کمزورفصل</string>
+    <string name="no_crop">کوئی فصل نہیں</string>
+    <string name="good">صحت مند فصل</string>
+
+
+    <!--login/signup-->
+    <string name="username">نام</string>
+    <string name="get_code">کوڈ حاصل کریں</string>
+    <string name="resend_code">دوبارہ کوڈ حاصل کریں</string>
+    <string name = "login">لاگ ان</string>
+    <string name ="digit_code">6 عددی کوڈ</string>
+
+
+    <!--activity_map layout-->
+    <string name="save">محفوظ کریں</string>
+    <string name="clear">دوبارہ بنایں</string>
+    <!--activity_map_view layout-->
+    <string name="ndvi_image">فصل کی صحت</string>
+    <string name="true_color_image">سیٹلائٹ</string>
+    <!--settings_activity-->
+
+    <string name ="field_name">کھیت کا نام</string>
+
+    <!--MapsActivity-->
+    <string name="make_closed_figure">کم از کم تین نکات منتخب کریں</string>
+    <string name="small_field">کھیت کا رقبہ١ایکڑ سے کم ہے</string>
+    <string name="large_field">کھیت کارقبہ 100ایکڑسے زیادہ ہے</string>
+    <string name="crop_not_selected">ایک فصل کا انتخاب کریں</string>
+    <string name="published_to_agro">کھیت کی معلومات محفوظ ہو گئیں</string>
+    <string name="could_not_publish_coordinates"> دوبارہ کوشش کریں یا مدد کے لئے ہم سے رابطہ کریں</string>
+    <!--MapViewActivity-->
+    <string name="deleted_from_agro">ڈیلیٹ کر دیا گیا</string>
+    <string name="api_not_responding"> دوبارہ کوشش کریں یا مدد کے لئے ہم سے رابطہ کریں </string>
+    <string name="got_json_response">کھیت کی معلومات دستیاب ہیں</string>
+
+    <!--name of crops-->
+    <string name="select_crop"> فصل کا انتخاب کریں</string>
+    <string name ="corn">مکئی</string>
+    <string name ="wheat">گندم</string>
+    <string name ="rice">چاول</string>
+    <string name ="cotton">کپاس</string>
+    <string name ="sugarcane">گنا</string>
+    <string name ="potato">آلو</string>
+    <string name ="other_crop">کوئی اور فصل</string>
+
+    <!--navigation bar/menu-->
+    <string name="delete">ڈیلیٹ کریں</string>
+    <string name="edit">ترمیم کریں</string>
+    <string name = "logout">لاگ آوٹ</string>
+    <string name = "language">زبان</string>
+    <string name="change_language">زبان منتخب کریں</string>
+    <string name="home">ہوم</string>
+    <string name="help">مدد حاصل کریں</string>
+    <string name="add_field">نیا کھیت شامل کری </string>
+    <string name="contact">رابطہ کریں</string>
+    <string name="refresh">اپ ڈیٹ</string>
+
+    <!--MainActivity-->
+    <string name = "my_fields">میرے کھیت</string>
+    <string name="improve_crop">فصل کی پیداوار کو بہتر بنانے کے طریقے</string>
+
+
+    <!--weather activity-->
+    <string name = "temperature">درجہ حرارت:</string>
+    <string name = "humidity">ہوا میں نمی:</string>
+
+    <!--edit_form-->
+    <string name = "field_details">کھیت کی معلومات</string>
+    <string name = "field_id">کھیت کاکوڈ</string>
+
+    <!--help-->
+    <string name = "how_to_login"> لاگ ان کرنے اور زبان تبدیل کرنے کا طریقہ</string>
+    <string name = "how_to_make_field">اپنا کھیت نقشے پر کیسے بنانا ہے؟</string>
+    <string name = "how_to_view_map">اپنے کھیت کے بارے میں معلومات کیسے حاصل کرنی ہیں؟</string>
+    <string name = "how_to_edit_map">کھیت میں ترمیم اور ڈیلیٹ کرنے کا طریقہ</string>
+    <string name = "how_to_contact_us">مدد اور کسی مسلے کی صورت میں ہم سے کیسے رابطہ کرنا ہے؟</string>
+
+    <!--delete dialog-->
+    <string name = "ask_to_delete">کیا آپ یہ کھیت ڈیلیٹ کرنا چاہتے ہیں؟</string>
+    <string name="yes">جی ہاں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <!--wait pop up-->
+    <string name="wait_dialog">براہ کرم ڈاؤن لوڈ کا انتظار کریں اور اپلی کیشن کو بند نہ کریں</string>
+    <string name="field_progress">کھیت میں تبدیلی</string>
+    <string name="network_not_available">انٹرنیٹ دستیاب نہیں ہے</string>
+    <string name="current_weather">موجودہ حال</string>
+    <string name="forecast">"موسم کی پیش گوئی "</string>
+    <string name="login_wait">"آپ کو ایک منٹ میں کوڈ مل جائے گا "</string>
+    <string name="valid_name">"مہربانی کر کے اپنا نام درج کریں "</string>
+    <string name="valid_phone">مہربانی کر کے درست فون نمبر درج کریں</string>
+
+    <!--pqnk-->
+    <string name="mulching">ملچنگ</string>
+    <string name="hardpan">ہارڈ پین</string>
+    <string name="ph_reduction">مٹی کی صفائی</string>
+    <string name="increase_organic_matter">زمین میں نامیاتی مادہ کو بڑھانا</string>
+
+    <!--mulching-->
+    <string name="mulching1">ملچنگ کیا ہے؟</string>
+    <string name="mulching2">ملچ قدرتی طور پر یا مصنوعی طور پر پھولوں کی باقیات یا مٹی کی سطح پر دیگر مواد کے پھیلانے کو کہتے  ہیں۔ جرمن \"اصطلاح\"  \"mulch\" سے مراد ہے کہ جس طرح سے نامیاتی مواد اور زراعت کی فضلہ کا استعمال ہوتا ہے، وہ اس طرح کے بھوک، گھاس کی پٹھوں، ملبوسات اور پتیوں کے طور پر زمین پر پھیلا ہوا ہے۔</string>
+    <string name="mulching3">ملچنگ کیوں کی جائے؟</string>
+    <string name="mulching4">زراعت میں ملچنگ کے اہم مقاصد یہ ہیں:\n   ١)  زمین کی نمی کو برقرار رکھنا\n  ٢) مٹی کا درجہ حرارت کنٹرول کرنا\n  ٣) جڑی بوٹیوں کی روک تھام\n  ٤) قدرتی مرکبات کا ہوا میں تحلیل ہونے سے بچاؤ\n  ٥) پانی کے ضیاع میں کمی\n  ٦) زمینی ساخت میں بہتری\n</string>
+    <string name="mulching5">ملچنگ کیسے کی جائے؟</string>
+    <string name="mulching6">مستقل \"ریزبیڈز\"کی تیاری کے بعد اپنی مرضی کے مطابق ملچ کو بیڈ پر فصل کے ارد گرد پھیلا کر بیڈ کو ڈھانپ دیں- عام طور پر قدرتی ملچ کی 2 سے 4 انچ تہ بیڈ کو ڈھانپنے کے لئے استعمال کی جاتی ہے-</string>
+    <string name="mulch5">"ملچنگ کے بعد "</string>
+    <string name="mulch4">ملچنگ سے پہلے</string>
+    <string name="mulch1">"توڑی "</string>
+    <string name="mulch2">پتے</string>
+    <string name="mulch3">تنکے</string>
+
+    <!--hardpan-->
+    <string name="hardpan1">ہارڈ پین کیا ہے؟</string>
+    <string name="hardpan3">ہارڈ پین کی وجوہات</string>
+    <string name="hardpan5">ہارڈ پین کے اثرات</string>
+    <string name="hardpan7">ہارڈ پین کو توڑنے کے طریقے</string>
+    <string name="hardpan2">ہارڈ پین زمین میں سخت مٹی کی گہری تہ ہے جو کہ مٹی کی سب سے اوپر والی تہ کے نیچے پائی جاتی ہے- ہارڈ پین کی مختلف اقسام ہیں جن سب میں یہ یکساں خصوصیت پائی جاتی ہے کہ مٹی کی تہ  پانی کو جذب نہیں کرپاتی-</string>
+    <string name="hardpan4">١) سوڈیم، سلکا یا چونے کا جمع ہو جانا\n٢) کھیتوں میں بھاری مشین کا استعمال \n٣) بار بار ایک خاص گہری میں ہر سال ہل چلانا\n</string>
+    <string name="hardpan6">١) اگر ہارڈ پین کی تہ بن جائے تو پانی اس تہ سے نیچے رسائی نہیں کر سکتا-\n٢) جڑوں کا پھیلاؤ رک جاتا ہے-\n</string>
+    <string name="hardpan8">١)چھوٹے پیمانے پر یہ بروڈ فورک سے کیا جاتا ہے \n٢)بڑے پیمانے پر جانوروں یا ٹریکٹر سے چلنے والے اوزار دستیاب ہیں، جیسے فکسڈ ٹائن چیسل -\n</string>
+
+    <!--organic-->
+    <string name="organic1">نامیاتی مادہ کیا ہے؟</string>
+    <string name="organic2">نامیاتی مادہ یا نامیاتی مرکبات وہ مرکبات ہیں جو جانداروں سے موخذ ہوتے ہیں- مادہ جو مٹی میں نامیاتی مادہ کو تشکیل دیتا ہے ان میں شامل ہیں:فصل اور پودے کی باقیات، درخت کی کھدائی، جانوروں کی فضلہ، جانوروں اور مٹی کے حیاتیات کی مختلف اقسام، ان کی مصنوعات اور کم حد تک انسانی فضلہ-</string>
+    <string name="organic3">نامیاتی مادے کے فوائد</string>
+    <string name="organic4">١) مٹی کی ساخت کو بہتر بناتا ہے \n ٢) نکاسیج کو بہتر بناتا ہے\n ٣) نمی رکھتا ہے\n ٤) غذائی اجزاء فراہم کرتا ہے\n ٥) کیشن ایکسچینج کی صلاحیت کو بہتر بنانا\n</string>
+    <string name="organic5">مٹی میں نامیاتی مادے میں کیسے اضافہ کیا جائے؟</string>
+    <string name="organic6">١) اناج کی فصلیں اگائیں \n ٢) سبز میوے کی فصلیں بڑھائیں\n ٣) پھیلایا جانا\n ٤) نامیاتی کھاد کا استعمال کریں\n ٥) کاشت کاری کم سے کم کریں\n ٦) نامیاتی مواد کو فروغ دیں\n</string>
+    <string name="organic_s1">کھاد</string>
+    <string name="organic_s2">مرکب</string>
+    <string name="organic_s3">پیٹ ماس</string>
+    
+    <!--soil wash-->
+    <string name="soilwash1">مٹی کی صفائی مٹی سے خطرناک جراثیم ختم کرنے کیلئے کی جاتی ہے- پھلے مٹی کو کسی کیمیائی مرکب سے دھویا جاتا ہے- پھرصاف مٹی کو خراب مٹی سے الگ کرتے ہیں اور پانی  سے دھوتے ہیں-</string>
+    <string name="soilwash2">مٹی کے واش کے لئے ان اقدامات پر عمل کریں:\n\n١) چیسل پلیئر کے ساتھ ہل چلایں\n٢) سلفیورک ایسڈ یا سلفر کو مٹی کے اوپر مساوی طور پر پھیلا دیں(تقریبا 8 سے 10 کلو فی ایکڑ)  \n٣) آبپاشی کرنا</string>
+    <string name="improve_crop1">پیداوار بہتر بنانے کے طریقے</string>
+    <string name="search_location">مقام تلاش کریں</string>
+    <string name="get_started">داخل ہوں</string>
+    <string name="tutorial">"سلائڈ دیکھیں  "</string>
+    <string name="pick_date">بوائی کی تاریخ</string>
+
+    <!--tutorial-->
+    <string name="maps_t1_text">اپنے موجودہ مقام پر جانے کے لئے یہاں سیاہ نشان پر کلک کریں۔</string>
+    <string name="maps_t1_title">موجودہ مقام</string>
+    <string name="maps_t2_text">مختلف فصلوں کو دیکھنے کے لئے کلک کریں اور اپنے کھیت کی فصل کو منتخب کریں۔</string>
+    <string name="maps_t2_title">فصل منتخب کریں</string>
+    <string name="maps_t3_text">کیلنڈر سائن پر کلک کرککیلنڈر سائن پر کلک کرکے اس تاریخ کو منتخب کریں جب آپ نے بیج بویا تھا</string>
+    <string name="maps_t3_title">بوائی کی تاریخ</string>
+    <string name="maps_t4_text">دوبارہ فیلڈ بنانے کے لئےیہاں کلک کریں۔</string>
+    <string name="maps_t4_title">دوبارہ بنائیں۔</string>
+    <string name="maps_t5_text">کثیرالاضلاع کو نقشہ پر بنائیں جہاں آپ کا کھیت واقع ہے۔</string>
+    <string name="maps_t5_title">کثیرالاضلاع کیسے بنائیں؟</string>
+    <string name="field_t1_text">اپنے فیلڈ کو شامل کرنے کے لئے اس بٹن پر کلک کریں۔</string>
+    <string name="field_t1_title">اپنا کھیت شامل کریں</string>
+    <string name="field_t2_text">اپنے فیلڈ کی تفصیلات دیکھنے کے لئے فہرست میں کسی بھی فیلڈ پر کلک کریں۔</string>
+    <string name="field_t2_title">اپنا کھیت دیکھیں۔</string>
+    <string name="maps_t6_text">آپ اپنے کھیتوں کے مقام کی تلاش یہاں جگہ کا نام لکھ کر کر سکتے ہیں۔</string>
+    <string name="maps_t6_title">مقام تلاش کریں۔</string>
+    <string name="maps_t7_text">اپنے کھیت کی تفصیلات کو محفوظ کرنے کے لئے یہاں کلک کریں</string>
+    <string name="maps_t7_title">محفوظ کریں</string>
+    <string name="dashboard">ڈیش بورڈ</string>
+
+</resources>

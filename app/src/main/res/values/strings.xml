@@ -1,0 +1,181 @@
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDpNtTijNsgmhPBzSIaIu2YOwIxh3r3euE</string>
+
+    <string name="app_name">Khush-haal Kisan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="Agro_API_Key">81c800ebb073b4f27808689c60ec87aa</string>
+    <string name="login_status">Login Status</string>
+
+    <!--list-->
+    <string name="acre">acre</string>
+    <string name="field">Field</string>
+    <string name="area">Area: </string>
+    <string name="crop">Crop</string>
+
+    <!--bar-->
+    <string name="health">Health</string>
+    <string name="weak">Weak Crop</string>
+    <string name="no_crop">No Crop</string>
+    <string name="good">Healthy Crop</string>
+
+
+    <!--login-->
+    <string name="username">Name</string>
+    <string name="get_code">Send Code</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="digit_code">6-digit code</string>
+
+    <!--activity_map layout-->
+    <string name="save">Save</string>
+    <string name="clear">Clear Selection</string>
+    <!--activity_map_view layout-->
+    <string name="ndvi_image">Health Image</string>
+    <string name="true_color_image">Satellite Image</string>
+    <!--settings_activity-->
+    <string name="field_name">Field Name</string>
+
+    <!--MapsActivity-->
+    <string name="make_closed_figure">Select at least three coordinates to make closed figure</string>
+    <string name="small_field">Area of field is less than 1 acre</string>
+    <string name="large_field">Area of Field is larger than 100 acre</string>
+    <string name="crop_not_selected">Select a crop</string>
+    <string name="published_to_agro">Your field has been saved</string>
+    <string name="could_not_publish_coordinates">Please try again later or contact us to get help</string>
+    <string name="search_location">Search location</string>
+    <!--MapViewActivity-->
+    <string name="deleted_from_agro">Deleted successfully</string>
+    <string name="api_not_responding">Please try again later or contact us to get help</string>
+    <string name="got_json_response">Field data is available now</string>
+    <string name="field_progress">Field Progress</string>
+
+    <!--name of crops-->
+    <string name="select_crop">Select Crop</string>
+    <string name="corn">Corn</string>
+    <string name="wheat">Wheat</string>
+    <string name="rice">Rice</string>
+    <string name="cotton">Cotton</string>
+    <string name="sugarcane">Sugarcane</string>
+    <string name="potato">Potato</string>
+    <string name="other_crop">Other Crop</string>
+
+    <!--navigation bar/menu-->
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="language">Language</string>
+    <string name="change_language">Choose Language</string>
+    <string name="home">Home</string>
+    <string name="help">Help</string>
+    <string name="add_field">Add new field</string>
+    <string name="contact">Contact us</string>
+    <string name="refresh">Refresh</string>
+
+    <!--MainActivity-->
+    <string name="my_fields">My Fields</string>
+    <string name="improve_crop">Techniques to improve crop yield</string>
+
+
+    <!--weather activity-->
+    <string name="temperature">Temperature:</string>
+    <string name="humidity">Air Humidity:</string>
+
+
+    <!--edit_form-->
+    <string name="field_details">Field details</string>
+    <string name="field_id">Field ID</string>
+
+    <!--help-->
+    <string name="tutorial">Tutorial Slides</string>
+    <string name="how_to_login"> How to login and change language?</string>
+    <string name="how_to_make_field">How to add and draw your field?</string>
+    <string name="how_to_view_map">How to view your field?</string>
+    <string name="how_to_edit_map">How to edit or delete field?</string>
+    <string name="how_to_contact_us">How to contact us for support?</string>
+
+    <!--delete dialog-->
+    <string name="ask_to_delete">Do you want to delete your field?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+
+    <!--wait pop up-->
+    <string name="wait_dialog">Please wait for we are downloading data and do not close the app</string>
+    <string name="network_not_available">Internet connection not available</string>
+    <string name="current_weather">Today</string>
+    <string name="forecast">Weather Forecast</string>
+    <string name="login_wait">you will get code in 60 seconds</string>
+    <string name="valid_name">Please enter your name</string>
+    <string name="valid_phone">Please enter valid Phone Number</string>
+
+    <!--pqnk-->
+    <string name="mulching">Mulching</string>
+    <string name="hardpan">Break Hardpan</string>
+    <string name="ph_reduction">Soil Wash</string>
+    <string name="increase_organic_matter">Increase Soil Organic Matter</string>
+
+    <!--mulching-->
+    <string name="mulching1">What is Mulching?</string>
+    <string name="mulching2">A mulch is natural or artificially spread layer of plant residues or other materials on the surface of soil. The word “mulch” is derived from Germanic term mulch means soft to decay which apparently refer to the use of organic material and agricultural waste like straw, grass clippings, compost and leaves spread over the ground as mulch.</string>
+    <string name="mulching3">Why to do Mulching?</string>
+    <string name="mulching4">The important objectives of mulching in agriculture are:\n 1. Moisture conservation\n 2.  Soil temperature control\n 3. Weed control\n 4.Prevention of surface compaction\n 5.Reduction of runoff and erosion\n 6.Improvement in soil structure and wheat control\n</string>
+    <string name="mulching5">How to do Mulching?</string>
+    <string name="mulching6">After preparation of permanent raised beds with such design which will allow excess rainfall to run off the mulch. The mulch of our choice is covered or laid on the designed beds. Usually 2 – 4 Inch layer of organic mulch is used to cover the beds. Spread mulch equally on bed.</string>
+    <string name="mulch1">Sawdust Mulch</string>
+    <string name="mulch2">Leaves Mulch</string>
+    <string name="mulch3">Straw Mulch</string>
+    <string name="mulch4">Before Mulching</string>
+    <string name="mulch5">After Mulching</string>
+
+    <!--hardpan-->
+    <string name="hardpan1">What is Hardpan?</string>
+    <string name="hardpan2">Hardpan or ouklip is a dense layer of soil, usually found below the uppermost topsoil layer. There are different types of hardpan, all sharing the general characteristic of being a distinct soil layer that is largely impervious to water.</string>
+    <string name="hardpan3">Causes of Hardpan</string>
+    <string name="hardpan4">1.Deposits of Sodium, dissolved Silica or rust/limestone combinations\n2.Heavy machinery or livestock traffic\n3.Repeated plowing, particularly at the same depth every year\n</string>
+    <string name="hardpan5">Effects of Hardpan</string>
+    <string name="hardpan6">1.Once a layer of hardpan forms, no water can penetrate the soil beyond that level.  Any moisture that reaches the hardpan layer will simply run off.\n\n2.Roots cannot enter the hardpan, either.  Once a probing root tip feels the hardpan, it will turn aside, directing root growth horizontally.  Or, worse yet, the plant will give up growing roots altogether.\n</string>
+    <string name="hardpan7">Methods to break hardpan</string>
+    <string name="hardpan8">1. On a small scale, this is typically done with a broadfork.\n\n2. On a larger scale, a variety of animal- or tractor-powered tools are available, such as Fixed- Tine Chisel Plow 18-20 inch deep.</string>
+
+    <!--organic matter-->
+    <string name="organic1">What is Organic Matter?</string>
+    <string name="organic2">Organic matter (or organic material) is matter that has come from a recently living organism. Materials that go through the decomposition process to form soil organic matter include: crop and plant residues, tree litter, animal waste, animals and different types of soil organisms, their by-products and to a lesser extent human waste.</string>
+    <string name="organic3">Benefits of Soil Organic Matter</string>
+    <string name="organic4">1.Improve soil structure\n2.Improves drainage\n3.Holds moisture\n4.Provides nutrients\n5.Improves cation exchange capacity\n</string>
+    <string name="organic5">How to increase Soil Organic Matter?</string>
+    <string name="organic6">1.Grow perennial pasture\n2.Grow cereal crops\n3.Grow green manure crops\n4.Spread manure\n5.Use organic fertilizers\n6.Keep cultivation to a minimum\n7.Concentrate organic matter\n</string>
+    <string name="organic_s1">Manure</string>
+    <string name="organic_s2">Compost</string>
+    <string name="organic_s3">Peat Moss</string>
+
+    <!--soil wash-->
+    <string name="soilwash1">Soil washing is a remediation technique that removes hazardous contaminants from soil by washing the soil with a liquid (often with a chemical additive and then separating the clean soils from contaminated soil and wash with water.</string>
+    <string name="soilwash2">For soil wash follow these steps:\n\n1.Perform plough with the Chisel Plow\n\n2.Spread the Sulfuric acid or Sulphur equally over the soil <b>(about 8 – 10 kg per acre)</b>\n\n3.Properly irrigate the land.\\n</string>
+    <string name="improve_crop1">Techniques</string>
+    <string name="get_started">Get Started</string>
+    <string name="pick_date">Date of sowing</string>
+
+
+    <string name="maps_t1_title">Current Location</string>
+    <string name="maps_t1_text">Click black sign here to go to your Current location.</string>
+    <string name="maps_t2_title">Select Crop</string>
+    <string name="maps_t2_text">Click to view different crops and select the one in your field</string>
+    <string name="maps_t3_title">Pick Date</string>
+    <string name="maps_t3_text">Pick the date when you sowed the seeds by clicking on calender sign</string>
+    <string name="maps_t4_title">Clear</string>
+    <string name="maps_t4_text">Click to clear the markers and draw polygon again</string>
+    <string name="maps_t5_title">How to draw polygon?</string>
+    <string name="maps_t5_text">Draw the polygon on map where your field is located</string>
+    <string name="maps_t6_title">Search Location</string>
+    <string name="maps_t6_text">"You may search your fields location by writing name of the place here "</string>
+    <string name="maps_t7_title">Save your field</string>
+    <string name="maps_t7_text">"Click here to finalize your field"</string>
+
+    <string name="field_t1_title">Add your Field</string>
+    <string name="field_t1_text">Click on this button to add your field</string>
+    <string name="field_t2_title">Open Your Field</string>
+    <string name="field_t2_text">Click on any item from list to view your field details</string>
+    <string name="dashboard">Dashboard</string>
+</resources>

@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maps_frame"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:max="10"
+        android:padding="4dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.lums.narl.mapexample1.MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+        <!--<fragment
+            android:id="@+id/place_autocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+
+            />
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_weight="4"
+                android:background="@drawable/custom_search_bar"
+                android:hint="@string/search_location" />
+
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="onMapSearch"
+                android:text="Search" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ic_gps_fixed_black_24dp"
+                android:id="@+id/current_location"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_below="@id/current_location"
+                android:background="@drawable/calender"
+                android:id="@+id/date_picker"/>
+
+            <Spinner
+                android:id="@+id/spinner_crop"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                style="@style/spinner_style"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/yellow"
+                android:layout_below="@id/date_picker"
+                android:text="@string/pick_date"
+                android:id="@+id/date_view"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/agro_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|left"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/clear"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button2"
+            android:id="@+id/clear"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Ok"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button1"
+            android:id="@+id/Save"/>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+

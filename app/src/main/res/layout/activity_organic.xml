@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/organic_matter"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_round"
+    android:backgroundTint="#CFFFFFFF"
+    android:backgroundTintMode="src_over"
+    android:layout_margin="10dp"
+    tools:context=".techniques.OrganicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/organic_matter"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/first"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/definition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/organic1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/definition1"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:justificationMode="inter_word"
+                    android:text="@string/organic2"
+                    android:textSize="20sp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/manure"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/compost"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/peetmoss"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/black"
+                        android:text="@string/organic_s1"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="@string/organic_s2"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="@string/organic_s3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/second"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/objective"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/organic3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/objective1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:text="@string/organic4"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/third"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/methodology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/organic5"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/methodology1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:text="@string/organic6"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
