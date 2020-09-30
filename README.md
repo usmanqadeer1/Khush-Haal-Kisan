@@ -1,6 +1,6 @@
-# Khush-Haal-Kisan
+# Khush-Haal Kisan
 
-Khush Haal Kisan is a farmer friendly tool that assists farmers in efficient monitoring of fields, to keep track of fields’ condition to plan for better yield and to educate them about eco-friendly farming techniques.
+Khush-Haal Kisan is a farmer friendly tool that assists farmers in efficient monitoring of fields, to keep track of fields’ condition to plan for better yield and to educate them about eco-friendly farming techniques.
 
 **Features:**
 1.  Crop Management and Monitoring
